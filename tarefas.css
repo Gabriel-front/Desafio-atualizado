@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: medium;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    
+}
+
+.tabela{
+    text-align: center;
+    display: flex;
+    gap:10px;
+    
+}
+.container ul li{
+    height: 50px;
+    width: 150px;
+    list-style: none;
+    border: 1px solid green;
+    text-align: center;
+    padding: 10px;
+}
+
+.actions {
+    margin-top: 22px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    border: 1px solid #000;
+    color: #000;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+
+    
+}
+
+button:hover {
+    background-color: #333;
+}
